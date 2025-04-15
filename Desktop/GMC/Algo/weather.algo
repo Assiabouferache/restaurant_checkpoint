@@ -11,6 +11,6 @@ BEGIN
 
     else 
     write ("this number is odd")
-    END_WHILE
-
+    END_IF
+p
 END
