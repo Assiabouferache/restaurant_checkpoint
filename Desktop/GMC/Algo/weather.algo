@@ -1,0 +1,16 @@
+ALGORITHM weather_
+VAR
+  Temp :INTEGER;
+
+
+BEGIN
+    read(" Enter the Temp")
+
+    if( Temp % 2 = 0 ) THEN
+    write ("this number is even")
+
+    else 
+    write ("this number is odd")
+    END_WHILE
+
+END

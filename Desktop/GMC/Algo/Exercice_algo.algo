@@ -1,0 +1,50 @@
+ALGORITHM algorithm_name
+VAR
+    age1 : INTEGER;
+    age2 : INTEGER;
+    age3 : INTEGER;
+    age4 : INTEGER;
+    
+BEGIN
+    IF (age1 < age2) THEN
+       IF (age1 < age3) THEN
+            IF (age1 < age4) THEN
+                 write("the smalest age is:");
+                 write(age1)
+            else THEN
+               write("the smalest age is:");
+               write(age4)
+
+        else if (age3<age4) THEN
+             write("the smalest age is:");
+            write(age3)
+            else THEN
+            write("the smalest age is:");
+            write(age4)
+        END IF;
+    else IF (age2 < age3) THEN
+            IF (age2<age4)
+               write("the smalest age is:");
+               write (age2)
+            else
+            write("the smalest age is:");
+            write(age4)
+        else if (age3<age4) THEN
+             write("the smalest age is:");
+            write(age3)
+            else THEN
+            write("the smalest age is:");
+            write(age4)
+        END IF;
+
+    else IF (age3 < age4) THEN
+           write("the smalest age is:");
+           write(age3)
+
+    else THEN 
+        write("the smalest age is:");
+        write(age4)
+
+    write("program ended")    
+    END_IF
+END
